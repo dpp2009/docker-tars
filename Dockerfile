@@ -5,6 +5,8 @@ WORKDIR /root/
 ##镜像时区 
 ENV TZ=Asia/Shanghai
 
+ENV GOPATH=/usr/local/go
+
 ##安装
 RUN yum -y install https://repo.mysql.com/mysql57-community-release-el7-11.noarch.rpm \
 	&& yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
