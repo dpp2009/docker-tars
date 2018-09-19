@@ -64,8 +64,6 @@ FROM centos/systemd
 ##镜像时区 
 ENV TZ=Asia/Shanghai
 
-ENV GOPATH=/usr/local/go
-
 ENV DBIP 127.0.0.1
 ENV DBPort 3306
 ENV DBUser root
